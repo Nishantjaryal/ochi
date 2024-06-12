@@ -35,10 +35,17 @@ const navbar = () => {
           ></path>
         </svg>
       </div>
+      <div className=" links flex gap-10 md:hidden">
+
+        <button className="p-[5px] pb-[8px] px-4 border-[1px] border-zinc-800 rounded-full cursor-pointer hover:bg-zinc-800 hover:text-zinc-50 w-fit">
+            Let's Build
+        </button>
+
+      </div>
       <div className="hidden links md:flex gap-10">
 
         {
-            ['services',"our work","About us","Insights"].map((obj,index)=>{
+            ['services',"our work","About us",'Insights'].map((obj,index)=>{
                 return(
                     <>
                     <a key={index} className="text-lg capitalize font-light">{obj}</a>

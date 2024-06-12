@@ -25,7 +25,6 @@ const message = () => {
         <div className="w-full h-full flex items-center justify-center py-5">
             <div className="flex items-center justify-center w-full overflow-hidden sm:w-[80%]  sm:rounded-3xl  lg:hover:w-full lg:hover:rounded-none lg:transition-all">
                  <video height='100%' width='100%' autoPlay muted loop  src="https://framerusercontent.com/assets/7MhgjzUDQYO4TwIlhWgp9C76M.mp4"></video>
-     
             </div>
         </div>
 
