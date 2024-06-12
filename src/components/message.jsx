@@ -3,7 +3,7 @@ import About from "./about";
 
 const message = () => {
   return (
-    <div className="w-full min-h-screen bg-[#CDEA68] pt-10 rounded-t-3xl">
+    <div className="w-full min-h-screen bg-[#CDEA68] pt-10 rounded-t-[34px] sm:rounded-t-[44px]">
       <div className="py-10 pb-24 px-[7vw] box-border md:px-10 ">
         <h1 className="text-zinc-800 text-[5vh] w-full leading-tight tracking-tighter sm:w-[75%] md:text-5xl">
           Ochi is a strategic partner for fast-grow­ing{" "}
